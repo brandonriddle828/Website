@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upright</title>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap" rel="stylesheet"> <!-- https://fonts.google.com/specimen/Kumbh+Sans -->
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">  <!-- https://fontawesome.com/-->  
+    <link rel="stylesheet" href="css/magnific-popup.css">       <!-- https://dimsemenov.com/plugins/magnific-popup/ -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">        <!-- https://getbootstrap.com/ -->
+    <link rel="stylesheet" href="slick/slick.min.css">          <!-- https://kenwheeler.github.io/slick/ -->
+    <link rel="stylesheet" href="slick/slick-theme.css">
+    <link rel="stylesheet" href="css/templatemo-upright.css">
+<!--
+    
+TemplateMo 555 Upright
+
+https://templatemo.com/tm-555-upright
+
+-->
+</head>
+<body>    
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Leftside bar -->
+            <div id="tm-sidebar" class="tm-sidebar"> 
+                <nav class="tm-nav">
+                    <button class="navbar-toggler" type="button" aria-label="Toggle navigation">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                    <div>
+                        <div class="tm-brand-box">
+                            <h1 class="tm-brand">Upright</h1>
+                        </div>                
+                        <ul id="tm-main-nav">
+                            <li class="nav-item">                                
+                                <a href="./index.html" class="nav-link external">
+                                    <div class="triangle-right"></div>
+                                    <i class="fas fa-home nav-icon"></i>
+                                    Home
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="./about.html" class="nav-link external">
+                                    <div class="triangle-right"></div>
+                                    <i class="fas fa-images nav-icon"></i>
+                                    About
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="./booking.html" class="nav-link external">
+                                    <div class="triangle-right"></div>
+                                    <i class="fas fa-user-friends nav-icon"></i>
+                                    Bookings
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="./ratings.html" class="nav-link external">
+                                    <div class="triangle-right"></div>
+                                    <i class="fas fa-envelope nav-icon"></i>
+                                    Reviews
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="./products.html" class="nav-link external" target="_parent" rel="sponsored">
+                                    <div class="triangle-right"></div>
+                                    <i class="fas fa-external-link-alt nav-icon"></i>
+                                    Products
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="./services.html" class="nav-link external" target="_parent" rel="sponsored">
+                                    <div class="triangle-right"></div>
+                                    <i class="fas fa-external-link-alt nav-icon"></i>
+                                    Services
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <footer class="mb-3 tm-mt-100">
+                        Design: <a href="https://templatemo.com" target="_parent" rel="sponsored">TemplateMo</a>
+                    </footer>
+                </nav>
+            </div>
+            
+            <div class="tm-main">
+
+
+
+                <!-- Contact section -->
+                <div class="tm-section-wrap">
+                    <div class="tm-parallax" data-parallax="scroll" data-image-src="img/img-04.jpg"></div>
+                    <div id="contact" class="tm-section">
+                        <h2 class="tm-text-primary">Book an Appointment</h2>
+                        <hr class="mb-5">
+                        <div class="row">
+                            <div class="col-xl-6 tm-contact-col-l mb-4">
+                                <form id="contact-form" action="./index.html" method="POST" class="tm-contact-form">
+                                    <div class="form-group">
+                                        <input type="text" name="name" class="form-control rounded-0" placeholder="Name" required />
+                                    </div>
+
+                                    <div class="form-group">
+                                        <input type="email" name="email" class="form-control rounded-0" placeholder="Email" required />
+                                    </div>
+
+                                    <div class="form-group">
+                                        <select class="form-control" id="contact-select" name="inquiry" required>
+                                            <option value="-">Type</option>
+                                            <option value="sales">In-Person</option>
+                                            <option value="creative">Call</option>
+                                            <option value="uiux">Zoom</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="form-group"  >
+                                        <label for="check">Please choose job type</label> <br>
+                                        <input type="radio" name="rad" id="res" value="residential" required> Residential <br>
+                                        <input type="radio" name="rad" id="com" value="Commercial"> Commercial <br>
+                                    </div>
+
+
+                                  
+
+
+                                    <div class="form-group">
+                                        <textarea rows="8" name="message" class="form-control rounded-0" placeholder="Reason of booking" required=></textarea>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="check">Please choose preffered days</label> <br>
+                                        <input type="checkbox" name="mon" id="mon" checked> Monday<br>
+                                        <input type="checkbox" name="tue" id="tue"> Tuesday <br>
+                                        <input type="checkbox" name="wed" id="wed">  Wednesday <br>
+                                        <input type="checkbox" name="thu" id="thu"> Thursday <br>
+                                        <input type="checkbox" name="fri" id="fri"> Friday <br>
+                                      
+                                    </div>
+
+                                    <label for="time">Select desired time for appointment</label>
+                                    <div class="form-group tm-text-right">
+                                        <input type="time" name="time1" id="time1" min="08:00" max="18:00" width="100px" required>
+                                    </div>
+                                   
+                                    <div class="form-group tm-text-right">
+                                        <button type="submit" class="btn btn-primary" value="submit">Send</button>
+                                    </div>
+
+                                </form>
+                            </div>
+                            <div class="col-xl-6 tm-contact-col-r">
+
+
+                             
+
+
+
+
+
+
+
+
+
+
+                <!-- Copyright -->                
+                <div class="tm-section-wrap tm-copyright row">
+                    <div class="col-12">
+                        <div class="text-right">
+                            Copyright 2020 Upright Company
+                        </div> 
+                    </div>
+                </div>                 
+            </div> <!-- .tm-main -->                      
+        </div> <!-- .row -->
+    </div> <!-- .container-fluid -->
+    <script src="js/jquery-3.4.1.min.js"></script>          <!-- https://jquery.com/ -->
+    <script src="js/jquery.singlePageNav.min.js"></script>  <!-- https://github.com/ChrisWojcik/single-page-nav -->
+    <script src="js/parallax/parallax.min.js"></script>     <!-- https://pixelcog.github.io/parallax.js/ -->
+    <script src="js/imagesloaded.pkgd.min.js"></script>     <!-- https://imagesloaded.desandro.com/ -->
+    <script src="js/isotope.pkgd.min.js"></script>          <!-- https://isotope.metafizzy.co/ -->
+    <script src="js/jquery.magnific-popup.min.js"></script> <!-- https://dimsemenov.com/plugins/magnific-popup/ -->
+    <script src="slick/slick.min.js"></script>              <!-- https://kenwheeler.github.io/slick/ -->
+    <script src="js/templatemo-script.js"></script>
+
+    <script>document.getElementById("contact-form").addEventListener("submit", myFunction);
+    function myFunction() {alert("Thank you for your interest, we'll be in touch soon via email.")}
+    </script>
+</body>
+</html> 
