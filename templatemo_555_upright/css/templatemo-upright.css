@@ -452,6 +452,10 @@ figure.effect-honey:hover ul li a {
 	padding-right: 15px;
 }
 
+.paragraph{
+	width: 100%;
+}
+
 .tm-col-about-l { width: calc(100% - 500px); }
 
 .tm-col-about-r {
