@@ -253,6 +253,7 @@ hr { border-top: 4px solid #CCC; }
 	color: #068ccf;
 }
 
+
 /* Gallery section */
 .tm-gallery img{
 	height: 175px;
@@ -479,7 +480,12 @@ figure.effect-honey:hover ul li a {
 }
 
 /* About */
-
+.tm-row-about5 img {
+	align-items: center;
+	width: 400px;
+	height: 600px;
+	
+}
 .tm-row-about {
 	padding-left: 15px;
 	padding-right: 15px;
@@ -563,6 +569,12 @@ figure.effect-honey:hover ul li a {
 	max-width: 1800px;
 	margin-left: -15px;
 	margin-right: -15px;
+}
+
+.tm-carousel img 
+{
+	width: 500px;
+	height: 200px;
 }
 
 .tm-carousel-item {
