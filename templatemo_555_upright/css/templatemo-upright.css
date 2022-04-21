@@ -16,6 +16,13 @@ https://templatemo.com/tm-555-upright
 	https://tympanus.net/Development/HoverEffectIdeas/
 	
 */
+.logo {
+    height: 250px;
+    width: 250px;
+    padding: 10px;
+    margin-right: 50px;
+
+}
 
 html, body { overflow-x: hidden; }
 body { font-family: 'Kumbh Sans', sans-serif; }
@@ -61,7 +68,7 @@ hr { border-top: 4px solid #CCC; }
 .tm-mt-100 { margin-top: 100px; }
 
 .tm-sidebar {
-	background-color: #fff;
+	background-color: #043959;
 	position: fixed;
 	top: 0;
 	bottom: 0;
@@ -84,6 +91,8 @@ hr { border-top: 4px solid #CCC; }
 	margin-right: 0;
 	position: relative;
 }
+
+
 
 .tm-section { padding: 50px 70px 50px 0; }
 
@@ -135,8 +144,7 @@ hr { border-top: 4px solid #CCC; }
 .tm-brand-box {
 	width: 240px;
     height: 180px;
-    background: #006699;
-    color: white;
+
     display: flex;
     align-items: center;
 	justify-content: center;
@@ -156,7 +164,7 @@ hr { border-top: 4px solid #CCC; }
 
 .nav-link {
 	position: relative;
-	color: #006699;
+	color: white;
 	font-size: 1.4rem;
 	padding-top: 15px;
 	padding-bottom: 15px;
@@ -169,17 +177,20 @@ hr { border-top: 4px solid #CCC; }
 	width: 0;
 	height: 0;
 	border-top: 21px solid transparent;
-	border-left: 20px solid #006699;
+	border-left: 20px solid #91d7f2;
 	border-bottom: 21px solid transparent;
 	opacity: 0;
 	transition: all 0.3s ease;
 }
 
+
+.btn-primary
 .nav-item:hover .nav-link,
 .nav-link.current {
 	background-color: #F2F2F2;
-	color: #006699;
+	color: #043959;
 	padding-left: 30px;
+	
 }
 
 .nav-item:hover > .nav-link > .triangle-right,
@@ -187,7 +198,7 @@ hr { border-top: 4px solid #CCC; }
 	opacity: 1;
 }
 
-.nav-icon {
+.nav-icon:hover {
 	width: 40px;
 	margin-right: 20px;
 }
@@ -209,15 +220,22 @@ hr { border-top: 4px solid #CCC; }
 	.tm-col-home-l { width: calc(100% - 250px); }
 
 	.tm-img-home-container {
+		align-items: center;
 		width: 200px;
 		height: 400px;
 	}
 }
+.tm-icon-container img {
+	
+	width: 120px;
+	height: 120px;
+	padding-top: 10px;
+}
 
 .tm-icon-container {
 	border: 1px solid #CCC;
-    width: 122px;
-    height: 122px;
+    width: 20px;
+    height: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -642,27 +660,27 @@ select:not([multiple]) {
 }
 
 .tm-contact-links {
-	padding-left: 0;
-	margin: 0;
+	padding-left: 40px;
+	margin: 0px;
 }
 
-.tm-contact-links li { list-style: none; }
+.tm-contact-links li { list-style:none } ;
 
 .tm-contact-social {
 	padding: 0;
 	margin: 0;
-	display: flex;
+	display: inline;
 }
 
 .tm-contact-social li {
-	list-style: none;
+	list-style:none;
 	margin-right: 5px;
 }
 
 .tm-contact-social li a {
-	width: 40px;
-	height: 40px;
-	display: block;
+	width: 20px;
+	height: 20px;
+	display: inline;
 }
 
 .tm-copyright { padding: 50px 70px 20px 0; }
