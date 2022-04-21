@@ -71,6 +71,12 @@ hr { border-top: 4px solid #CCC; }
 	padding-top: 40px;
 	width: 280px;
 }
+.tm-section-wrap1 {
+	width: calc(100%);
+	margin-left: 750px;
+	margin-right: 0;
+	position: relative;
+}
 
 .tm-section-wrap {
 	width: calc(100% - 750px);
